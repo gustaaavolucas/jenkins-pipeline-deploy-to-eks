@@ -7,7 +7,7 @@ module "eks" {
     cluster_endpoint_public_access  = true
 
     vpc_id = "vpc-0d9a5eb173bedc44f"
-    subnet_ids = ["subnet-027b8e77051561ac2", "subnet-09ee0277dc0fab4a8"]
+    subnet_ids = ["subnet-027b8e77051561ac2", "subnet-0df1242537338454d"]
 
     tags = {
         environment = "development"
